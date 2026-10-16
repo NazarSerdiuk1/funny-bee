@@ -22,4 +22,4 @@ def product_detail_view(request, slug):
     context = {
         'product': product,
     }
-    return render(request, 'catalog/product_detail.html', context)
+    return render(request, 'product_detail.html', context)
